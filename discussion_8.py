@@ -24,8 +24,6 @@ def getAdmissionsInfo2019(soup):
         dictionary[school_name] = year
     return dictionary 
     
-
-    return dictionary 
     pass
 
 
