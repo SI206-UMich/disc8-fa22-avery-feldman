@@ -17,8 +17,10 @@ def getAdmissionsInfo2019(soup):
     dictionary = []
     x = soup.find_all("table", class_="toccolours")
     for item in x:
-        dictionary[item.get("title")] = 0
-    print(dictionary)
+        y = item.find_all("td")
+        print(y.find("a"))
+        print("-----------------------")
+
     pass
 
 
